@@ -39,4 +39,3 @@ credits: 'Adapted from the Freelancer theme.  Freelancer is a free to use, open 
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: rouge
