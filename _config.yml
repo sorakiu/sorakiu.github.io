@@ -4,9 +4,6 @@ email: David.Moore.TN@gmail.com
 url: "http://david-moore.me"
 description: "Thoughts of a Knoxville programmer"
 
-# Contact form: comment the line below if you want to stick with the default PHP contact form
-contact: static
-
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: 18bc9c #80B3FF
@@ -39,3 +36,6 @@ credits: 'Adapted from the Freelancer theme.  Freelancer is a free to use, open 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+collections:
+  - portfolio

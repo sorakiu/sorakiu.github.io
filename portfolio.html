@@ -1,3 +1,6 @@
+---
+layout: default
+---
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
@@ -9,18 +12,20 @@
                 </div>
             </div>
             <div class="row">
-                {% for post in site.posts %}
+                {% for portfolio_item in site.portfolio %}
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <a href="#portfolioModal-{{ portfolio_item.modal-id }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                            <img src="{{baseurl}}/img/portfolio/{{ portfolio_item.img }}" class="img-responsive" alt="{{ portfolio_item.alt }}">
                         </a>
                     </div>
                 {% endfor %}
             </div>
         </div>
     </section>
+	
+    {% include modals.html %}
