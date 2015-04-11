@@ -2,6 +2,7 @@
 title: David's Blog
 email: David.Moore.TN@gmail.com
 url: "http://david-moore.me"
+#url: "http://127.0.0.1:4000"
 description: "Thoughts of a Knoxville programmer"
 
 # Color settings (hex-codes without the leading hash-tag)

@@ -6,8 +6,12 @@
 
 body {
     overflow-x: hidden;
+	padding-top: 40px;
 }
 
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
 p {
     font-size: 20px;
 }
@@ -250,6 +254,26 @@ section.success {
         margin: 0 0 30px;
     }
 }
+
+/* posts */
+
+#posts .post-item {
+}
+
+#posts .post-item .post-link {
+}
+
+
+#posts * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #posts .post-item {
+        margin: 0 0 30px;
+    }
+}
+/* end posts */
 
 .btn-outline {
     margin-top: 15px;

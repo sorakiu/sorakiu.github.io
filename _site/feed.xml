@@ -3,11 +3,21 @@
   <channel>
     <title>David&#39;s Blog</title>
     <description>Thoughts of a Knoxville programmer</description>
-    <link>http://david-moore.me/</link>
+    <link>http://127.0.0.1:4000/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 10 Apr 2015 19:16:21 -0400</pubDate>
-    <lastBuildDate>Fri, 10 Apr 2015 19:16:21 -0400</lastBuildDate>
+    <pubDate>Fri, 10 Apr 2015 20:13:46 -0400</pubDate>
+    <lastBuildDate>Fri, 10 Apr 2015 20:13:46 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Getting started with Jekyll, Bootstrap, Github pages</title>
+        <description></description>
+        <pubDate>Fri, 10 Apr 2015 19:53:58 -0400</pubDate>
+        <link>http://127.0.0.1:4000/2015/04/10/getting-started-with-jekyll/</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/2015/04/10/getting-started-with-jekyll/</guid>
+        
+        
+      </item>
     
   </channel>
 </rss>

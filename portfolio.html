@@ -1,5 +1,6 @@
 ---
 layout: default
+page_name: portfolio
 ---
 
     <!-- Portfolio Grid Section -->
@@ -20,7 +21,7 @@ layout: default
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="{{baseurl}}/img/portfolio/{{ portfolio_item.img }}" class="img-responsive" alt="{{ portfolio_item.alt }}">
+                            <img src="{{ site.url }}/img/portfolio/{{ portfolio_item.img }}" class="img-responsive" alt="{{ portfolio_item.alt }}">
                         </a>
                     </div>
                 {% endfor %}

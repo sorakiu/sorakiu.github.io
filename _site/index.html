@@ -6,7 +6,7 @@
     <title>David's Blog</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Thoughts of a Knoxville programmer">
-    <link rel="canonical" href="http://david-moore.me/">
+    <link rel="canonical" href="http://127.0.0.1:4000/">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
@@ -26,42 +26,70 @@
 </head>
 
     <body id="page-top" class="index">
-       <!-- Navigation -->
-    <nav class="navbar navbar-default">
-	  <div class="container-fluid">
-		<!-- Brand and toggle get grouped for better mobile display -->
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			<span class="sr-only">Toggle navigation</span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		  </button>
-		  <a class="navbar-brand" href="#">David's Blog</a>
-		</div>
+        <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">David's Blog</a>
+            </div>
 
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-			<li class=""><a href="">Blog</a></li>
-			<li class=""><a href="/about">About</a></li>
-			<li class=""><a href="/portfolio">Portfolio</a></li>
-			<li class=""><a href="/contact">Contact</a></li>
-		  </ul>
-		</div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+					<li class=" active "><a href="http://127.0.0.1:4000/">Blog</a></li>
+					<li class=""><a href="http://127.0.0.1:4000/about">About</a></li>
+					<li class=""><a href="http://127.0.0.1:4000/portfolio">Portfolio</a></li>
+					<li class=""><a href="http://127.0.0.1:4000/contact">Contact</a></li>
+					index
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+   
 
-	    <!-- Header -->
+	    <section class="success" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>David's Blog</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+
+			    <!-- Header -->
 	<div class="row">
-		<div class="col-lg-12">
-			<img class="img-responsive" src="/img/profile.png" alt="">
-			<div class="intro-text">
-				<span class="skills">.NET Developer</span>
+		<header>
+			<div class="col-lg-12">
+				<img class="img-responsive" src="http://127.0.0.1:4000/img/profile.png" alt="Picture of David">
+				<div class="intro-text">
+					<span class="skills">.NET Developer</span>
+				</div>
 			</div>
-		</div>
+		</header>
 	</div>
 
+		</div>
+	</section>
+    <section id="posts">
+        <div class="container">
+            
+				<div class="row post-item">
+					<a href="/2015/04/10/getting-started-with-jekyll/" class="post-link">Getting started with Jekyll, Bootstrap, Github pages</a>
+					<p>At the prompting of some members of the Knoxville Coding Dojo, I decided to start experimenting with static site generators.  I was apprehensive about trying anything to do with Ruby because I don’t know and am not particularly interested in it.  I haven’t had to learn any ruby so far.  I copied/pasted some code to deal with highlighting the active URL.</p>
+
+
+				</div>
+            
+        </div>	
+	</section>
 
 
         <!-- Footer -->

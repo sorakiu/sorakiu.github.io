@@ -1,5 +1,27 @@
 ---
 layout: default
+page_name: index
 ---
 
-{% include header.html %}
+    <section class="success" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>David's Blog</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+
+			{% include header.html %}
+		</div>
+	</section>
+    <section id="posts">
+        <div class="container">
+            {% for post in site.posts %}
+				<div class="row post-item">
+					<a href="{{post.url}}" class="post-link">{{post.title}}</a>
+					{{post.excerpt}}
+				</div>
+            {% endfor %}
+        </div>	
+	</section>
