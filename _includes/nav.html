@@ -14,11 +14,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-					<li class="{% active_page index%}"><a href="{{ site.url }}/">Blog</a></li>
-					<li class="{% active_page about%}"><a href="{{ site.url }}/about">About</a></li>
-					<li class="{% active_page portfolio%}"><a href="{{ site.url }}/portfolio">Portfolio</a></li>
-					<li class="{% active_page contact%}"><a href="{{ site.url }}/contact">Contact</a></li>
-					{% testplugin testtext %}
+					<li id="home"><a href="{{ site.url }}/">Blog</a></li>
+					<li><a href="{{ site.url }}/about">About</a></li>
+					<li><a href="{{ site.url }}/portfolio">Portfolio</a></li>
+					<li><a href="{{ site.url }}/contact">Contact</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
