@@ -39,3 +39,6 @@ permalink: pretty
 
 collections:
   - portfolio
+
+gems:
+  - jekyll-sitemap
