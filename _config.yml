@@ -13,7 +13,9 @@ color:
 # Footer settings
 footer:
   copyright: David Moore
-  location: Knoxville TN
+  location: Location
+  social: Around the Web
+  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
